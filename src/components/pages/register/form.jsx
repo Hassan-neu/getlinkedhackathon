@@ -2,10 +2,7 @@
 import Btn from "@/components/shared/button";
 import Success from "@/components/success";
 import React, { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-
 const RegForm = ({ list }) => {
-    const router = useRouter();
     const [isChecked, setisChecked] = useState(false);
     const [successful, setSuccessful] = useState(false);
     const [status, setStatus] = useState({
@@ -69,7 +66,6 @@ const RegForm = ({ list }) => {
                 privacy_poclicy_accepted: false,
             });
             setisChecked(false);
-            router.push("/");
             setTimeout(() => setSuccessful(false), 5000);
         } catch (err) {
             console.log(err);
