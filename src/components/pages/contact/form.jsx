@@ -3,7 +3,6 @@ import Btn from "@/components/shared/button";
 import React, { useEffect, useState } from "react";
 
 const ContactForm = () => {
-    const [status, setStatus] = useState(true);
     const [info, setInfo] = useState({
         first_name: "",
         email: "",
@@ -27,7 +26,6 @@ const ContactForm = () => {
                 }
             );
             const data = await res.json();
-            res.ok && setStatus(true);
             setInfo({
                 first_name: "",
                 email: "",
@@ -39,20 +37,11 @@ const ContactForm = () => {
             console.log(err);
         }
     };
-    useEffect(() => {
-        const timeout = setTimeout(() => setStatus(false), 5000);
-        return () => clearTimeout(timeout);
-    }, [status]);
     return (
         <form
             onSubmit={handleSubmit}
             className="flex flex-col gap-6 lg:gap-10 mt-[34px] text-white"
         >
-            {status && (
-                <div className="absolute top-5 left-1/2 -translate-x-1/2 p-2 w-max border text-center rounded text-brightMagenta bg-white">
-                    Your feedback has been recorded
-                </div>
-            )}
             <div className="block bg-[rgba(255, 255, 255, 0.01)] border border-white rounded shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.25)]">
                 <input
                     type="text"
