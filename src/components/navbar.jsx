@@ -37,7 +37,7 @@ const Navbar = () => {
                     </div>
                 </Btn>
                 <ul className="flex flex-col gap-5 lg:flex-row lg:gap-14 text-white text-lg font-medium lg:text-base lg:font-normal">
-                    <li>
+                    <li className="hover:grad-text">
                         <Link href={"/#timeline"}>Timeline</Link>
                     </li>
                     <li>

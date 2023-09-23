@@ -6,7 +6,7 @@
     --lightViolet: #903aff;
     --brightMagenta: #d434fe;
 }
-body {
+html {
     scroll-behavior: smooth;
 }
 * {

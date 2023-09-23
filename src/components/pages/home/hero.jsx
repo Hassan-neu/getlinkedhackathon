@@ -69,16 +69,15 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full h-[367px] lg:h-[600px] relative lg:hover:scale-105 lg:[transition:transform_1s_ease-in]">
+                <div className="w-full h-[367px] lg:h-[600px] relative  after:absolute after:h-[300px] after:w-[300px] lg:after:h-[450px] lg:after:w-[450px] after:rounded-full after:bg-gradient-radial after:from-lightViolet after:blur-[50px] lg:after:blur-[80px] after:bg-opacity-60 after:top-0 after:left-1/2 after:-translate-x-1/2">
                     <Image
-                        src={"/hero-man.svg"}
+                        src={"/hero-man.png"}
                         alt="hero-image-hero"
                         fill={true}
-                        className="lg:hover:scale-105 lg:[transition:transform_.8s_ease-in]"
                     />
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[338px] h-[325px] lg:w-[600px] lg:h-[600px] lg:top-1/2 lg:-translate-y-1/2">
                         <Image
-                            src="/glow.svg"
+                            src="/glow.png"
                             fill={true}
                             alt={"glow"}
                             className="lg:hover:scale-105 lg:[transition:transform_.8s_ease-in]"

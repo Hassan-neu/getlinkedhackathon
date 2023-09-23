@@ -17,9 +17,9 @@ const Rewards = () => {
                 </div>
             </div>
             <div className="flex flex-col gap-[51px] h-[80vh] lg:gap-[37px] lg:flex-row lg:h-[50vh]">
-                <div className="w-full h-1/2 lg:w-2/5 lg:h-full relative after:absolute after:h-[200px] after:w-[200px] lg:after:h-[400px] lg:after:w-[400px] after:rounded-full after:bg-gradient-radial after:from-lightViolet after:blur-[50px] lg:after:blur-[100px] after:-top-1/2  after:left-10 lg:after:left-1/2 after:-translate-x-1/2 after:-z-10 z-20 lg:hover:after:top-0 lg:after:[transition:top_1s_ease-out]">
+                <div className="w-full h-1/2 lg:w-[35%] lg:h-full relative after:absolute after:h-[200px] after:w-[200px] lg:after:h-[400px] lg:after:w-[400px] after:rounded-full after:bg-gradient-radial after:from-lightViolet after:blur-[50px] lg:after:blur-[100px] after:-top-1/2  after:left-10 lg:after:left-1/2 after:-translate-x-1/2 after:-z-10 z-20 lg:hover:after:top-0 lg:after:[transition:top_1s_ease-out]">
                     <Image
-                        src="/trophy.svg"
+                        src="/trophy.png"
                         alt="trophy-image"
                         fill={true}
                         className="lg:hover:scale-110 lg:[transition:transform_.8s_ease-in]"

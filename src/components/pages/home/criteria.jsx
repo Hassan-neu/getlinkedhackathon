@@ -5,12 +5,19 @@ import React from "react";
 const Criteria = () => {
     return (
         <div className="flex flex-col px-[34px] py-[74px] gap-[10px] lg:gap-[109px] lg:items-center lg:flex-row lg:[&>div]:w-1/2 lg:px-[184px] bg-darkViolet bg-[url('/wstar.svg'),_url('/pstar.svg'),_url('/star.svg')] [background-repeat:no-repeat,_no-repeat,_no-repeat] bg-[position:85%_92%,_45%_2%,_55%_18%] lg:bg-[position:50%_90%,_20%_15%,_32%_50%] bg-[size:_10px,_15px,_12px] lg:bg-[size:_20px,_20px,_20px]">
-            <div className="relative w-full h-[275px] lg:h-screen after:absolute after:w-[200px] after:h-[200px] lg:after:h-[400px] lg:after:w-[400px] after:rounded-full after:bg-gradient-radial after:from-lightViolet after:blur-[50px] lg:after:blur-[100px] after:top-3/4 after:-translate-y-1/2 after:-left-10 lg:after:left-0 after:-z-10 z-20 lg:hover:after:top-1/2 lg:after:[transition:top_1s_ease-out]">
+            <div className="relative w-full h-[275px] lg:h-[60vh] after:absolute after:w-[200px] after:h-[200px] lg:after:h-[400px] lg:after:w-[400px] after:rounded-full after:bg-gradient-radial after:from-lightViolet after:blur-[50px] lg:after:blur-[100px] after:top-3/4 after:-translate-y-1/2 after:-left-10 lg:after:left-0 after:-z-10 z-20 lg:hover:after:top-1/2 lg:after:[transition:top_1s_ease-out]">
                 <Image
-                    src="/criteria-image.svg"
+                    src="/criteria-image.png"
                     alt="criteria-image"
                     fill={true}
                     className="lg:hover:scale-105 lg:[transition:transform_.8s_ease-in]"
+                />
+                <Image
+                    src="/ellipse.svg"
+                    alt="ellipse"
+                    width={134}
+                    height={134}
+                    className="hidden lg:block absolute -z-[1] top-0 left-12"
                 />
             </div>
             <div className="relative flex flex-col gap-4 text-white after:absolute after:w-[200px] after:h-[200px] lg:after:h-[400px] lg:after:w-[400px] after:rounded-full after:bg-gradient-radial after:from-lightViolet after:blur-[50px] lg:after:blur-[100px] after:bottom-0  lg:after:top-full lg:after:-translate-y-1/2 after:left-full after:-translate-x-1/2 after:-z-10 z-20 lg:hover:after:top-1/2 lg:hover:after:left-1/2 lg:after:[transition:all_1s_ease-out]">

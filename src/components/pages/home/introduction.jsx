@@ -10,10 +10,17 @@ const Introduction = () => {
             >
                 <div className="relative w-full h-[327px] lg:h-[477px]">
                     <Image
-                        src="big-idea.svg"
+                        src="/big-idea.png"
                         alt="big-idea-image"
                         fill={true}
                         className="lg:hover:scale-105 lg:[transition:transform_.5s_ease-in]"
+                    />
+                    <Image
+                        src="/twirl.svg"
+                        alt="twirl"
+                        width={49}
+                        height={58}
+                        className="absolute top-full left-1/2 -translate-x-1/2 lg:top-full lg:left-full"
                     />
                 </div>
                 <div className="flex flex-col gap-4 text-white">
@@ -52,12 +59,19 @@ const Introduction = () => {
                         that&apos;s what we&apos;re all about!
                     </p>
                 </div>
-                <div className="relative w-full h-[382px] lg:h-[664px] after:absolute after:w-[200px] after:h-[200px] lg:after:h-[400px] lg:after:w-[400px] after:rounded-full after:bg-gradient-radial after:from-lightViolet after:blur-[50px] lg:after:blur-[100px] after:top-0 after:-translate-x-1/2 lg:after:top-full lg:after:-translate-y-1/2 lg:after:left-full lg:after:-translate-x-0 after:-z-10 z-20 lg:hover:after:left-1/2 lg:hover:after:top-1/2 lg:after:[transition:all_1s_ease-out]">
+                <div className="relative w-full h-[382px] lg:h-[500px] after:absolute after:w-[200px] after:h-[200px] lg:after:h-[400px] lg:after:w-[400px] after:rounded-full after:bg-gradient-radial after:from-lightViolet after:blur-[50px] lg:after:blur-[100px] after:top-0 after:-translate-x-1/2 lg:after:top-full lg:after:-translate-y-1/2 lg:after:left-full lg:after:-translate-x-0 after:-z-10 z-20 lg:hover:after:left-1/2 lg:hover:after:top-1/2 lg:after:[transition:all_1s_ease-out]">
                     <Image
-                        src="reading-girl.svg"
+                        src="/reading-girl.png"
                         alt="redaing-girl-image"
                         fill={true}
                         className="lg:hover:scale-105 lg:[transition:transform_.8s_ease-in]"
+                    />
+                    <Image
+                        src="/ellipse.svg"
+                        alt="ellipse"
+                        width={134}
+                        height={134}
+                        className="hidden lg:block absolute -z-[1] top-16 right-24"
                     />
                 </div>
             </div>

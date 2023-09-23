@@ -59,9 +59,9 @@ const Policy = () => {
                 </div>
             </div>
             <div className="relative lg:h-screen lg:hover:scale-105 lg:[transition:transform_1s_ease-in]">
-                <div className="relative flex justify-center w-full h-[354px] lg:w-[559px] lg:h-[749px] z-30 top-24">
+                <div className="relative flex justify-center w-full h-[354px] lg:w-[559px] lg:h-[749px] z-30 lg:top-24">
                     <Image
-                        src="/policy-man.svg"
+                        src="/policy-man.png"
                         alt="policy-image"
                         fill={true}
                         className="lg:hover:scale-105 lg:[transition:transform_.8s_ease-in]"
